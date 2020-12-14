@@ -9,7 +9,7 @@ body {
 
 .container {
   display: grid;
-  width: 500px;
+  width: 400px;
 }
 
 #title {
