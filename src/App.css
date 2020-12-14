@@ -9,13 +9,13 @@ body {
 
 .container {
   display: grid;
-  width: 400px;
+  width: 350px;
 }
 
 #title {
   background-color: steelblue;
   font-weight: bold;
-  line-height: 100px;
+  line-height: 50px;
   text-align: center;
   border: 2px solid #f69c55;
   border-top: 4px solid #f69c55;
@@ -23,23 +23,23 @@ body {
 
 #display {
   background-color: steelblue;
-  line-height: 100px;
+  line-height: 50px;
   text-align: center;
-  border-bottom: 4px solid #f69c55;
-  border-left: 2px solid #f69c55;
-  border-right: 2px solid #f69c55;
+  border-bottom: 3px solid #f69c55;
+  border-left: 1.5px solid #f69c55;
+  border-right: 1.5px solid #f69c55;
 }
 
 .pad-area {
   display: grid;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(3, 50px);
   grid-template-columns: repeat(3, auto);
   border-bottom: 2px solid #f69c55;
 }
 
 .drum-pad {
   background-color: steelblue;
-  line-height: 100px;
+  line-height: 50px;
   text-align: center;
   border: 2px solid #f69c55;
 }
